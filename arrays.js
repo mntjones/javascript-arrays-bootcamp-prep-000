@@ -28,3 +28,6 @@ function removeElementFromBeginningofArray(arr) {
   return arr.slice(1)
 }
 
+function destructivelyRemoveElementFromEndOfArray(arr) {
+  return arr.pop()
+}
